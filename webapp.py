@@ -16,7 +16,7 @@ def render_response():
         reply = "How is your day?"
     else:
         reply = "My favorite color is pink."
-    return render_template('response.html', response = reply)
+    return render_template('home.html', response = reply)
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
